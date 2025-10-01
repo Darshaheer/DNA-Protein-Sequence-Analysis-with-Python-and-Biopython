@@ -1,8 +1,3 @@
-import ssl
-import certifi
-
-ssl._create_default_https_context = lambda: ssl.create_default_context(cafile=certifi.where())
-
 from Bio import SeqIO
 from Bio.Blast import NCBIWWW, NCBIXML
 from Bio.SeqUtils import gc_fraction
@@ -141,3 +136,4 @@ for record in blast_rec:
                 print()
                 
 print(f"There are {count} similar sequences in Blast output")
+
