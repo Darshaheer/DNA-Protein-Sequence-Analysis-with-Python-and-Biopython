@@ -31,34 +31,27 @@ DNA-Protein-Sequence-Analysis-with-Python-and-Biopython/
 Install dependencies with:
 
 ```bash
-pip install biopython, matplotlib
-
----
-
+pip install biopython matplotlib
+``` 
+  
 ## Usage
-  STEPS:
-    - "Place your DNA sequences in data/Fasta_Seq.fasta"
-    - "Run the script: python sequence_analysis.py"
-    - "Output files (translated protein, summary, plots) will be saved in results/"
+Place your DNA sequences in data/Fasta_Seq.fasta
+Run the script:
+python sequence_analysis.py
+Output files (translated protein, summary, plots) will be saved in results/
 
----
+## Example Output
+Nucleotide composition statistics
+Transcribed RNA sequence
+Protein sequence from translation
+Reverse complement of the DNA strand
+Visual plots (saved in results/)
 
-## EXAMPLE OUTPUT
-  - "Nucleotide composition statistics"
-  - "Transcribed RNA sequence"
-  - "Protein sequence from translation"
-  - "Reverse complement of the DNA strand"
-  - "Visual plots (saved in results/)"
+## Notes
+Replace the sample FASTA file with your own sequence(s).
+You can analyze multiple sequences at once if they are stored in FASTA format.
+This project can be extended to integrate with NCBI BLAST for homology searches.
 
----
-
-## NOTES
-  - "Replace the sample FASTA file with your own sequence(s)."
-  - "You can analyze multiple sequences at once if they are stored in FASTA format."
-  - "This project can be extended to integrate with NCBI BLAST for homology searches."
-
----
-
-## LICENSE
-  TYPE: MIT
-  DETAILS: "This project is open-source. You are free to use and modify it for research or educational purposes."
+## License
+MIT License
+This project is open-source. You are free to use and modify it for research or educational purposes.
